@@ -1,5 +1,5 @@
 const moviesService = require("./movies.service");
-// insert asyncErrorBoundary
+const asyncErrorBoundary = require("../errors/asyncErrorBoundary")
 
 async function list(req, res, next) {
     if( req.query.is_showing) return next()
@@ -7,11 +7,10 @@ async function list(req, res, next) {
 }
 
 async function listNowShowing(req, res, next) {
-        res.json({ data: await moviesService.listNowShowing() })
-    next({ status: 404, message: "No movies are currently showing"})
+    res.json({ data: await moviesService.listNowShowing() })
 }
 
 module.exports = {
-    list: list,
-    listNowShowing: listNowShowing
+    list: asyncErrorBoundary(list),
+    listNowShowing: asyncErrorBoundary(listNowShowing)
 }
