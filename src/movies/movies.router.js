@@ -21,6 +21,6 @@ router
 router
   .route("/:movieId/reviews")
   .get(moviesController.readMovieReviews)
-  .all(methodNotAllowed)
+  .all(methodNotAllowed);
 
 module.exports = router;
