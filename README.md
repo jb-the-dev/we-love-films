@@ -9,7 +9,7 @@ In each resource directory, there are three files: `[resource].router.js`, `[res
 
 For this project, the service files contain code interacting with the database, the controller files contain any data validation & async handling functions to the database, and the router files link the backend logic to their specific routes
 
-The app's frontend UI was already provided.
+The app's frontend UI was already provided. See the github repo for a link to the deployed frontend of the app.
 
 ### Available routes
 | Routes                        | CRUD allowed         | Description |
