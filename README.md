@@ -3,13 +3,13 @@
 ## Description
 The purpose of this app is to build the server side of a React app that would allow users to navigate through a selection of movies and their associated movie theaters & reviews.
 
-This work represents the first full back-end PostgreSQL/Knex/Express application developed by JB. 
+This work represents the first full back-end application developed by JB. The tools and skills implemented were PostgreSQL, Knex, CORS, RESTful API structure, and Express.
 
 In each resource directory, there are three files: `[resource].router.js`, `[resource].controller.js`, and `[resource].service.js`.
 
 For this project, the service files contain code interacting with the database, the controller files contain any data validation & async handling functions to the database, and the router files link the backend logic to their specific routes
 
-The app's frontend UI was already provided. See the github repo for a link to the deployed frontend of the app.
+The app's frontend UI was already provided. See this repo's **About** section for a link to the deployed frontend of the app.
 
 ### Available routes
 | Routes                        | CRUD allowed         | Description |
