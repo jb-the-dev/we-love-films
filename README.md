@@ -1,7 +1,7 @@
 # WeLoveMovies
 
 ## Description
-The purpose of this app is to build the server side of a React app that would allow users to navigate through a selection of movies and their associated movie theaters & reviews.
+The purpose of this project was to build the server side of a React app that would allow users to navigate through a selection of movies and their associated movie theaters & reviews.
 
 This work represents the first full back-end application developed by JB. The tools and skills implemented were PostgreSQL, Knex, CORS, RESTful API structure, and Express.
 
